@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.chistes2.MainActivity">
+    <item
+        android:id="@+id/ins"
+        app:showAsAction="always"
+        android:icon="@drawable/ins"
+        android:title="Nuevo Chiste"/>
+    <item
+        android:id="@+id/upd"
+        app:showAsAction="always"
+        android:icon="@drawable/upd"
+        android:title="Actualizar Chiste"/>
+    <item
+        android:id="@+id/del"
+        app:showAsAction="always"
+        android:icon="@drawable/del"
+        android:title="Retirar Chiste"/>
+
+</menu>
